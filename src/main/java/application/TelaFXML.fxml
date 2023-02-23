@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" cacheShape="false" prefHeight="439.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TelaController">
+   <children>
+      <Button fx:id="btnGirar" alignment="CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="55.0" mnemonicParsing="false" onAction="#girar" prefHeight="62.0" prefWidth="195.0" text="GIRAR" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="imgMoeda" fitHeight="189.0" fitWidth="230.0" layoutX="80.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
