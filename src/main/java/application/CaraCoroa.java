@@ -11,7 +11,7 @@ public class CaraCoroa extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("/application/TelaFXML.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("TelaFXML.fxml"));
 			Scene scene = new Scene(root);
 			primaryStage.setTitle("Cara e Coroa");
 			primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/imagens/moeda.png")));
