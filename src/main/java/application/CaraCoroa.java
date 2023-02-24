@@ -16,7 +16,7 @@ public class CaraCoroa extends Application {
 			primaryStage.setTitle("Cara e Coroa");
 			primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/imagens/moeda.png")));
 			primaryStage.resizableProperty().setValue(Boolean.FALSE);
-			primaryStage.setMaximized(false);
+			primaryStage.setMaximized(false); 
 			primaryStage.setResizable(false);   
 			primaryStage.setScene(scene);		
 			primaryStage.show();
